@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 203a5dd4715c90d4c9cfbd27be471088
+guid: 3fe4594f5f7e4ff4a9ec10b9e2cc142c
 TextureImporter:
   fileIDToRecycleName:
-    21300000: spritesheet_0
-    21300002: spritesheet_1
+    21300000: spritesheet_G_0
+    21300002: spritesheet_G_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -45,7 +45,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: spritesheet_0
+    - name: spritesheet_G_0
       rect:
         serializedVersion: 2
         x: 7
@@ -55,7 +55,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: spritesheet_1
+    - name: spritesheet_G_1
       rect:
         serializedVersion: 2
         x: 65
