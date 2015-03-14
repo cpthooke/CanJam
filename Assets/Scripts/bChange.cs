@@ -13,7 +13,7 @@ public class bChange : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey (KeyCode.R))
+		if ((Input.GetButton ("FireB")) && (Input.GetAxis ("Jump") < 0 || Input.GetAxis ("Jump") > 0))
 			spriteRenderer.sprite = sprite2;
 		else
 			spriteRenderer.sprite = sprite1;
