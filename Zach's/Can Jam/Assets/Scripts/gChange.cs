@@ -13,9 +13,9 @@ public class gChange : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-//		if ((Input.GetButton ("FireG")) && (Input.GetAxis ("Jump") < 0 || Input.GetAxis ("Jump") > 0))
-//			spriteRenderer.sprite = sprite2;
-//		else
-//			spriteRenderer.sprite = sprite1;
+		if ((Input.GetButton ("FireG")) && (Input.GetAxis ("Jump") < 0 || Input.GetAxis ("Jump") > 0))
+			spriteRenderer.sprite = sprite2;
+		else
+			spriteRenderer.sprite = sprite1;
 	}
 }

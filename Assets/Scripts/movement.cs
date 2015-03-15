@@ -16,13 +16,13 @@ public class movement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (gameObject.transform.position.y == 85.0f) {
-			if (Input.GetAxis ("Jump") < 0) {
+			if (Input.GetAxis ("Jump") > 0) {
 				CurrY += Spacing;
 				Vector2 v = new Vector2(gameObject.transform.position.x, CurrY);
 				gameObject.transform.position = v;
 			}
 		} else if (gameObject.transform.position.y == 255.0f) {
-			if (Input.GetAxis ("Jump") < 0) {
+			if (Input.GetAxis ("Jump") > 0) {
 				CurrY += Spacing;
 				Vector2 v = new Vector2(gameObject.transform.position.x, CurrY);
 				gameObject.transform.position = v;
@@ -32,7 +32,7 @@ public class movement : MonoBehaviour {
 				gameObject.transform.position = v;
 			}
 		} else {
-			if (Input.GetAxis ("Jump") > 0) {
+			if (Input.GetAxis ("Jump") < 0) {
 				CurrY -= Spacing;
 				Vector2 v = new Vector2(gameObject.transform.position.x, CurrY);
 				gameObject.transform.position = v;
