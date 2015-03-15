@@ -2,8 +2,8 @@
 using System.Collections;
 
 public class movement : MonoBehaviour {
-	public float CurrY = 85.0f;
-	public float Spacing = 170.0f;
+	public float CurrY = 0.0f;
+	public float Spacing = 4.0f;
 	public Sprite player;
 
 	private SpriteRenderer spriteRenderer;
@@ -15,29 +15,36 @@ public class movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (gameObject.transform.position.y == 85.0f) {
-			if (Input.GetAxis ("Jump") > 0) {
-				CurrY += Spacing;
-				Vector2 v = new Vector2(gameObject.transform.position.x, CurrY);
+		if ((gameObject.transform.position.y == -2.0f) && (Input.GetButton ("FireR") == false) && (Input.GetButton ("FireB") == false) && (Input.GetButton ("FireY") == false) && (Input.GetButton ("FireG") == false) && (Input.GetButton ("FireO") == false)){
+			if (Input.GetAxis ("GateOn") > 0) {
+				CurrY = 1.0f;
+				Vector3 v = new Vector3(gameObject.transform.position.x, CurrY,gameObject.transform.position.z);
 				gameObject.transform.position = v;
-			}
-		} else if (gameObject.transform.position.y == 255.0f) {
-			if (Input.GetAxis ("Jump") > 0) {
-				CurrY += Spacing;
-				Vector2 v = new Vector2(gameObject.transform.position.x, CurrY);
-				gameObject.transform.position = v;
-			} else if (Input.GetAxis ("Jump") > 0) {
-				CurrY -= Spacing;
-				Vector2 v = new Vector2(gameObject.transform.position.x, CurrY);
-				gameObject.transform.position = v;
-			}
-		} else {
-			if (Input.GetAxis ("Jump") < 0) {
-				CurrY -= Spacing;
-				Vector2 v = new Vector2(gameObject.transform.position.x, CurrY);
-				gameObject.transform.position = v;
+				Debug.Log("1");
 			}
 		}
-	}
+		 if ((gameObject.transform.position.y == 1.0f) && (!Input.GetButton ("FireR")) && (!Input.GetButton ("FireB")) && (!Input.GetButton ("FireY")) && (!Input.GetButton ("FireG")) && (!Input.GetButton ("FireO"))){
+			if (Input.GetAxis ("GateOn") > 0) {
+				CurrY = 3.0f;
+				Vector3 v = new Vector3(gameObject.transform.position.x, CurrY,gameObject.transform.position.z);
+				gameObject.transform.position = v;
+				Debug.Log("2");
+			} else if (Input.GetAxis ("GateOn") < 0) {
+				CurrY = -2.0f;
+				Vector3 v = new Vector3(gameObject.transform.position.x, CurrY,gameObject.transform.position.z);
+				gameObject.transform.position = v;
+				Debug.Log("3");
+			}
+		} 
+		if ((gameObject.transform.position.y == 1.0f) && (!Input.GetButton ("FireR")) && (!Input.GetButton ("FireB")) && (!Input.GetButton ("FireY")) && (!Input.GetButton ("FireG")) && (!Input.GetButton ("FireO"))){
+			if (Input.GetAxis ("GateOn") < 0) {
+				CurrY = 1.0f;
+				Vector3 v = new Vector3(gameObject.transform.position.x, CurrY,gameObject.transform.position.z);
+				gameObject.transform.position = v;
+				Debug.Log("4");
+			}
+			}
+
+		}
 }
 
