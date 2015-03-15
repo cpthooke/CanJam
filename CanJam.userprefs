@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\oChange.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\movement.cs">
     <Files>
       <File FileName="Assets\Scripts\oChange.cs" Line="29" Column="2" />
-      <File FileName="Assets\Scripts\gChange.cs" Line="22" Column="1" />
-      <File FileName="Assets\Scripts\rChange.cs" Line="22" Column="1" />
+      <File FileName="Assets\Scripts\gChange.cs" Line="11" Column="1" />
+      <File FileName="Assets\Scripts\rChange.cs" Line="8" Column="1" />
       <File FileName="Assets\Scripts\yChange.cs" Line="24" Column="1" />
-      <File FileName="Assets\Scripts\bChange.cs" Line="22" Column="1" />
+      <File FileName="Assets\Scripts\bChange.cs" Line="8" Column="2" />
+      <File FileName="Assets\Scripts\movement.cs" Line="25" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
