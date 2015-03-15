@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\bChange.cs" />
      <Compile Include="Assets\Scripts\gChange.cs" />
+     <Compile Include="Assets\Scripts\movement.cs" />
      <Compile Include="Assets\Scripts\oChange.cs" />
      <Compile Include="Assets\Scripts\rChange.cs" />
      <Compile Include="Assets\Scripts\spriteChange.cs" />
