@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DestroyerScript.cs" />
-     <Compile Include="Assets\Scripts\GateCheckB.cs" />
+     <Compile Include="Assets\Scripts\GateCheck.cs" />
      <Compile Include="Assets\Scripts\GateGenerator.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\bChange.cs" />
