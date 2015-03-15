@@ -13,7 +13,9 @@ public class oChange : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if ((Input.GetAxis("FireO") == 1)) {// && (Input.GetAxis ("Jump") < 0 || Input.GetAxis ("Jump") > 0)) {
+		//print (Input.GetAxis("FireO"));
+		//print (Time.deltaTime);
+		if ((Input.GetButton("FireO")) && (Input.GetAxis ("Jump") < 0 || Input.GetAxis ("Jump") > 0)) {
 
 			spriteRenderer.sprite = sprite2;
 
