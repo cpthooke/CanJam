@@ -16,19 +16,8 @@ public class GateGenerator : MonoBehaviour
 	void Spawn () 
 	{
 		int colour;
-		bool inUse = false;
 
-		//do 
-		//{
-			colour = Random.Range (0, gate.Length);
-
-			if (gate[colour]) //Checks for an instance of the generated colour
-				inUse = true;
-			else
-				Debug.Break ();
-				//inUse = false;
-		//} 
-		//while(inUse = true); //Ensures the same colour is not shown twice on the screen
+		colour = Random.Range (0, gate.Length);
 
 		Instantiate (gate [Random.Range (0, gate.Length)], transform.position, Quaternion.identity); //Randomly selects a gate colour
 		Invoke ("Spawn", Random.Range (spawnMin, spawnMax)); //Calls the spawn method to generate another gate
