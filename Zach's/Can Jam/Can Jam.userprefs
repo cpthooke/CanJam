@@ -1,19 +1,12 @@
 ﻿<Properties>
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\movement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\logoTimer.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\movement.cs" Line="19" Column="19" />
-=======
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GateCheck.cs">
-    <Files>
-      <File FileName="Assets\Scripts\GateGenerator.cs" Line="16" Column="16" />
-      <File FileName="Assets\Scripts\DestroyerScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GateCheck.cs" Line="61" Column="36" />
->>>>>>> e9b63088faeb94e08464f1dee82bc94f39774ba1
+      <File FileName="Assets\Scripts\movement.cs" Line="13" Column="52" />
+      <File FileName="Assets\Scripts\gChange.cs" Line="19" Column="36" />
+      <File FileName="Assets\Scripts\logoTimer.cs" Line="24" Column="34" />
+      <File FileName="Assets\Scripts\oChange.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\gameInterface.cs" Line="18" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
