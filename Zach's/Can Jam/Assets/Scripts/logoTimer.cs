@@ -18,7 +18,7 @@ public class logoTimer : MonoBehaviour {
 		Timer += Time.deltaTime;
 
 		ans = Timer % 2;
-
+		spriteRenderer.sprite = sprite1;
 		Debug.Log (ans);
 		while (ans < 1)
 			spriteRenderer.sprite = sprite2;

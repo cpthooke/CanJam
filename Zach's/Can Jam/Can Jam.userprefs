@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\logoTimer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\gameInterface.cs">
     <Files>
       <File FileName="Assets\Scripts\movement.cs" Line="13" Column="52" />
       <File FileName="Assets\Scripts\gChange.cs" Line="19" Column="36" />
-      <File FileName="Assets\Scripts\logoTimer.cs" Line="24" Column="34" />
+      <File FileName="Assets\Scripts\logoTimer.cs" Line="21" Column="35" />
       <File FileName="Assets\Scripts\oChange.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\gameInterface.cs" Line="18" Column="1" />
     </Files>
