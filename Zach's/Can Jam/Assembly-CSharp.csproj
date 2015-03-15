@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\oChange.cs" />
      <Compile Include="Assets\Scripts\rChange.cs" />
      <Compile Include="Assets\Scripts\yChange.cs" />
+     <Compile Include="Assets\score.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>
