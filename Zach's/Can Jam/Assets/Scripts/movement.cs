@@ -18,7 +18,7 @@ public class movement : MonoBehaviour {
 		timer += Time.deltaTime;
 		if (timer > 0.15f)
 		{
-		if ((gameObject.transform.position.y == -2.0f) && (Input.GetButton ("FireR") == false) && (Input.GetButton ("FireB") == false) && (Input.GetButton ("FireY") == false) && (Input.GetButton ("FireG") == false) && (Input.GetButton ("FireO") == false)){
+		if ((gameObject.transform.position.y == -1.0f) && (Input.GetButton ("FireR") == false) && (Input.GetButton ("FireB") == false) && (Input.GetButton ("FireY") == false) && (Input.GetButton ("FireG") == false) && (Input.GetButton ("FireO") == false)){
 			if (Input.GetAxis ("GateOn") > 0) {
 				CurrY = 1.0f;
 				Vector3 v = new Vector3(gameObject.transform.position.x, CurrY,gameObject.transform.position.z);
@@ -41,7 +41,7 @@ public class movement : MonoBehaviour {
 				gameObject.transform.position = v;
 				Debug.Log("2");
 			} else if (Input.GetAxis ("GateOn") < 0) {
-				CurrY = -2.0f;
+				CurrY = -1.0f;
 				Vector3 v = new Vector3(gameObject.transform.position.x, CurrY,gameObject.transform.position.z);
 				gameObject.transform.position = v;
 				Debug.Log("3");
