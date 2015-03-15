@@ -23,7 +23,7 @@ public class oChange : MonoBehaviour {
 		}
 		else
 			spriteRenderer.sprite = sprite1;
-		Debug.Log (Input.GetAxis("FireO").ToString ());
+		//Debug.Log (Input.GetAxis("FireO").ToString ());
 
 	}
 }
