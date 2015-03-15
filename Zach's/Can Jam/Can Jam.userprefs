@@ -1,19 +1,11 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\movement.cs">
-    <Files>
-      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\movement.cs" Line="19" Column="19" />
-=======
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GateCheck.cs">
     <Files>
-      <File FileName="Assets\Scripts\GateGenerator.cs" Line="16" Column="16" />
+      <File FileName="Assets\Scripts\GateCheck.cs" Line="25" Column="9" />
       <File FileName="Assets\Scripts\DestroyerScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GateCheck.cs" Line="61" Column="36" />
->>>>>>> e9b63088faeb94e08464f1dee82bc94f39774ba1
+      <File FileName="Assets\Scripts\movement.cs" Line="1" Column="1" />
+      <File FileName="Assets\score.cs" Line="7" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
