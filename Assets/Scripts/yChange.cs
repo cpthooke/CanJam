@@ -13,11 +13,13 @@ public class yChange : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if ((Input.GetButton ("FireY")) && (Input.GetAxis ("Jump") < 0 || Input.GetAxis ("Jump") > 0))
+		if ((Input.GetButton ("FireY")) && (Input.GetAxis ("Jump") < 0 || Input.GetAxis ("Jump") > 0)) {
 			spriteRenderer.sprite = sprite2;
-
+			Debug.Log (Input.GetAxis ("Jump").ToString ());
 		}
-		else
-			spriteRenderer.sprite = sprite1;
-	}
+	
+	else
+		spriteRenderer.sprite = sprite1;
 }
+}
+
